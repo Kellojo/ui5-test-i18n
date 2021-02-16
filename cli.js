@@ -62,7 +62,11 @@ const doesFileMissAnyProperties = function(sFilePath, aDesiredProperties) {
         }
     });
 
-    console.log(`${ iMissingKeys == 0 ? '✅' : '❌'} Found ${iMissingKeys} missing properties`);
+    if (iMissingKeys > 0) {
+        console.log(`❌ Found ${iMissingKeys} missing properties`);
+    } else {
+        console.log(chalk.green(`Found ${iMissingKeys} missing properties, well done!`));
+    }
 
 
     return missesAnyProperties;
@@ -107,6 +111,8 @@ const checkForMissingKeys = function(sScanDir) {
             bErrorsFound = true;
         }
     });
+
+    console.log("");
 
     process.exit(bErrorsFound ? 1 : 0);
 }
