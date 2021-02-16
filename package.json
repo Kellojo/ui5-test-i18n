@@ -1,0 +1,26 @@
+{
+  "name": "ui5-test-i18n",
+  "version": "1.0.0",
+  "description": "A small cli that cross checks your ui5 message bundles for missing translations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kellojo/ui5-test-i18n.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Kellojo/ui5-test-i18n/issues"
+  },
+  "bin": {
+    "ui5-test-i18n": "./cli.js"
+  },
+  "homepage": "https://github.com/Kellojo/ui5-test-i18n#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "properties-reader": "^2.2.0"
+  }
+}
