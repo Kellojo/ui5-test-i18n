@@ -18,6 +18,12 @@
   "bin": {
     "ui5-test-i18n": "./cli.js"
   },
+  "keywords": [
+    "ui5",
+    "test",
+    "i18n",
+    "cross-check"
+  ],
   "homepage": "https://github.com/Kellojo/ui5-test-i18n#readme",
   "dependencies": {
     "chalk": "^4.1.0",
