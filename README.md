@@ -1,8 +1,10 @@
 # ui5-test-i18n
 A small cli that cross checks your ui5 message bundles for missing translations.
 
-![How a failure looks like](https://i.imgur.com/wVaA0p8.png)
-![How success looks like](https://i.imgur.com/3HPr8th.png)
+![How a failure looks like](https://i.imgur.com/bmWcrKj.png)
+![How success looks like](https://i.imgur.com/xSxwKDZ.png)
+
+It looks for any .properties fils in the given directory and report any missing properties.
 
 ## How to use:
 Simply run the command from your terminal after installation:
