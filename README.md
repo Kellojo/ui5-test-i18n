@@ -4,7 +4,7 @@ A small cli that cross checks your ui5 message bundles for missing translations.
 ![How a failure looks like](https://i.imgur.com/bmWcrKj.png)
 ![How success looks like](https://i.imgur.com/zGqIlt3.png)
 
-It looks for any .properties fils in the given directory and report any missing properties.
+It looks for any .properties fils in the given directory and reports any missing properties.
 
 ## How to use:
 Simply run the command from your terminal after installation:
